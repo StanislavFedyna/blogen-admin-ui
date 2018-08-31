@@ -41,12 +41,12 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown mr-3">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-             <i class="fa fa-users"></i> Welcome Dear Stas
+              <i class="fa fa-users"></i> Welcome Dear Stas
             </a>
             <div class="dropdown-menu">
               <a href="profile.html" class="dropdown-item"><i class="fa fa-user-circle"></i> Profile</a>
               <a href="profile.html" class="dropdown-item"><i class="fa fa-gear"></i> Settings</a>
-          
+
             </div>
           </li>
           <div class="nav-item">
@@ -60,8 +60,7 @@
   </nav>
 
   <!-- MAIN HEADER -->
-
-  <header id="main-header"  class="py-2 bg-primary text-white">
+  <header id="main-header" class="py-2 bg-primary text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -73,6 +72,33 @@
       </div>
     </div>
   </header>
+
+  <!-- ACTIONS -->
+
+  <section id="action" class="py-4 mb-4 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addPostModal"><i class="fa fa-plus"></i>
+            Add Post</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#addCategoryModal"><i class="fa fa-plus"></i>
+            Add Category</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-warning btn-block" data-toggle="modal" data-target="#addUserModal"><i class="fa fa-plus"></i>
+            Add User</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- POST MODAL -->
+  <div class="modal fade" id="addPostModal">
+
+  </div>
   <!-- Scripts -->
   <script src="js/jquery.min.js"></script>
   <script src="js/scroll.js"></script>
